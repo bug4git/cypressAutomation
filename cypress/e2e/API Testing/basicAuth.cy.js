@@ -32,11 +32,11 @@ describe("Authentication", ()=> {
     })
 
     it("Bearer Token Auth", ()=>{
-        const token = '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'
+       // const token = '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'
 
         cy.request({
             method: 'GET',
-            url: 'https://api.github.com/user/repos' ,
+           // url: 'https://api.github.com/user/repos' ,
             headers: {
                 Authorization:'Bearer '+ token
             }
