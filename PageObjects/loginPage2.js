@@ -1,4 +1,4 @@
-class Login
+    class Login
 {
     txtUserName= "input[placeholder='Username']"
     txtPassword= "input[placeholder='Password']"
